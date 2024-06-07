@@ -18,7 +18,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   height: 100vh;
 }
 .main-card {
@@ -35,6 +35,9 @@
   box-shadow: 0 0 10px hsl(0, 0%, 80%);
 }
 
-.img-star img {
-  float: left;
+.img-star {
+  margin-bottom: 10px;
+}
+
+.only-p {
 }
